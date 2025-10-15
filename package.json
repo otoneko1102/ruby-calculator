@@ -1,0 +1,21 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --plugin=@prettier/plugin-ruby --write src",
+    "build": "bundle exec rubyc src/calc.rb -o calculator.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^4.0.4",
+    "prettier": "^3.6.2"
+  }
+}
