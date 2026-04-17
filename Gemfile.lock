@@ -8,6 +8,7 @@ GEM
     csv (3.3.5)
     equalizer (0.0.11)
     facets (3.1.0)
+    fiddle (1.1.8)
     glimmer (2.8.1)
       array_include_methods (>= 1.4.0, < 1.6.0)
       facets (>= 3.1.0, < 4.0.0)
@@ -33,6 +34,8 @@ GEM
     logger (1.7.0)
     matrix (0.4.3)
     method_source (1.1.0)
+    ocran (1.4.3-x64-mingw-ucrt)
+      fiddle (~> 1.0)
     os (1.1.4)
     pastel (0.8.0)
       tty-color (~> 0.5)
@@ -84,6 +87,7 @@ DEPENDENCIES
   csv
   glimmer
   glimmer-dsl-libui
+  ocran
   prettier_print
   syntax_tree
   syntax_tree-haml

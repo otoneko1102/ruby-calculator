@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem "glimmer-dsl-libui"
 gem "csv"
+gem "ocran"
 
 group :development do
   gem "glimmer"
