@@ -75,9 +75,7 @@ end
 window("Ruby Calculator", 300, 400) do
   margined true
 
-  on_closing do
-    Glimmer::LibUI.quit
-  end
+  on_closing { Glimmer::LibUI.quit }
 
   vertical_box do
     entry do
